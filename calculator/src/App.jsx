@@ -34,7 +34,7 @@ const Form = () => {
 
   const handleResetInput = (e) => {
     e.preventDefault()
-    inputRef.current = 0
+    inputRef.current.value = "type a number"
   }
 
 return (
